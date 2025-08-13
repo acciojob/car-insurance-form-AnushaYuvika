@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
 	<form method="POST">
+		<!-- Name -->
 		<label for="name">Name</label>
-		<input name="name" id="name" type="text" required/>
+		<input type="text" id="name" name="name" required />
 		<br><br>
 
+		<!-- Email -->
 		<label for="email">Email</label>
-		<input name="email" id="email" type="email" required/>
+		<input type="email" id="email" name="email" required />
 		<br><br>
 
+		<!-- Gender -->
 		<span>Gender</span><br>
-		<input name="gender" type="radio" id="male" value="male" required/>
+		<input type="radio" id="male" name="gender" value="male" required />
 		<label for="male">Male</label>
-		<input name="gender" type="radio" id="female" value="female" required/>
+		<input type="radio" id="female" name="gender" value="female" required />
 		<label for="female">Female</label>
 		<br><br>
 
+		<!-- Car Brands -->
 		<label for="cars">Car Brands</label>
 		<select id="cars" name="cars" required>
 			<option value="BMW">BMW</option>
-			<option value="Audio">Audio</option>
+			<option value="Audi">Audi</option>
 			<option value="Mercedez">Mercedez</option>
 		</select>
 		<br><br>
 
+		<!-- Car Age -->
 		<label for="carage">Car Age</label>
-		<input name="carage" id="age" type="number" required/>
+		<input type="number" id="carage" name="carage" required />
 		<br><br>
 
+		<!-- Date of Purchase -->
 		<label for="dop">Date of Purchase</label>
-		<input name="dop" id="dop" type="date" required/>
+		<input type="date" id="dop" name="dop" required />
 		<br><br>
 
+		<!-- Password -->
 		<label for="password">Password</label>
-		<input name="password" id="password" type="password" required/>
+		<input type="password" id="password" name="password" required />
 		<br><br>
 
+		<!-- Submit Button -->
 		<button type="submit">Submit</button>
 	</form>
-    <script type="text/javascript" src="./script.js">
-</script>
 
+	<script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
